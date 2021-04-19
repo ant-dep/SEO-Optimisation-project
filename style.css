@@ -836,6 +836,12 @@ h4 {
 a>strong {
     /*make text closed to social media icons transparent for accessiblity*/
     opacity: 0;
+    position: absolute;
+}
+
+.text-center>i {
+    font-size: 16px;
+    font-weight: 700;
 }
 
 @media (max-width: 1024px) {
